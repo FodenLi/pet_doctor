@@ -1,0 +1,191 @@
+.consultation {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 25%;
+  .top {
+    width: 100%;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.39);
+    opacity: 1;
+    .van-icon {
+      color: black;
+    }
+    .van-hairline--bottom:after {
+      border-bottom-width: 0;
+    }
+    .van-ellipsis {
+      font-size: 18px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #333333;
+      opacity: 1;
+    }
+  }
+  .infos {
+    width: 95%;
+    height: 20px;
+    p {
+      font-size: 14px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      line-height: 20px;
+      color: #333333;
+      opacity: 1;
+    }
+  }
+  .content {
+    width: 95%;
+    height: 36px;
+    p {
+      font-size: 12px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      line-height: 18px;
+      color: #666666;
+      opacity: 1;
+    }
+  }
+  .basicinfo {
+    width: 100%;
+    height: 318px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(255,255,255,0.39);
+    .head {
+      width: 95%;
+      height: 60px;
+      display: flex;
+      .head-left {
+        width: 20%;
+        height: 100%;
+        text-align: center;
+      }
+      .head-right {
+        width: 80%;
+        height: 100%;
+
+        .right-top {
+          width: 100%;
+          height: 50%;
+          p {
+            font-size: 14px;
+            font-family: PingFang SC;
+            font-weight: bold;
+            line-height: 30px;
+            color: #333333;
+            opacity: 1;
+          }
+        }
+        .right-bottom {
+          width: 100%;
+          height: 50%;
+          p {
+            font-size: 12px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            line-height: 30px;
+            color: #afafaf;
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .info {
+      width: 95%;
+      height: 20px;
+      p {
+        font-size: 14px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        line-height: 20px;
+        color: #333333;
+        opacity: 1;
+      }
+    }
+  }
+  .disease {
+    width: 100%;
+    height: 133px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    background: rgba(255,255,255,0.39);
+    .type {
+      width: 95%;
+      height: 15px;
+      div {
+        width: 30px;
+        height: 15px;
+        background: rgba(255, 201, 180, 0.39);
+        opacity: 1;
+        text-align: center;
+        p {
+          font-size: 11px;
+          font-family: PingFang SC;
+          font-weight: 400;
+          line-height: 15px;
+          color: #ff7743;
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .reply{
+    width: 100%;
+    height: 139px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    background: rgba(255,255,255,0.39);
+    .person {
+        width: 95%;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        .per_left {
+          width: 15%;
+          height: 100%;
+          text-align: center;
+          img {
+            width: 45px;
+            height: 45px;
+          }
+        }
+        .per_right {
+          width: 83%;
+          height: 100%;
+          .r_top {
+            width: 100%;
+            height: 50%;
+            p {
+              font-size: 14px;
+              font-family: PingFang SC;
+              font-weight: bold;
+              line-height: 22px;
+              color: #333333;
+              opacity: 1;
+            }
+          }
+          .r_bottom {
+            width: 100%;
+            height: 50%;
+            p {
+              font-size: 12px;
+              font-family: PingFang SC;
+              font-weight: 400;
+              line-height: 22px;
+              color: #afafaf;
+              opacity: 1;
+            }
+          }
+        }
+      }
+  }
+}

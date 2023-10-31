@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.doctorinfo {
+    width: 265px;
+    height: 78px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 26px;
+    .default-button {
+        width: 70px;
+        height: 22px;
+        border: 1px solid #FF7743;
+        border-radius: 11px;
+        background-color: rgba(255, 255, 255, 0.39);
+        color: #FF7743;
+        float: right;
+        position: relative;
+        right: 19px;
+        top: 5px;
+    }
+    
+    .sub {
+        width: 70px;
+        height: 22px;
+        border: 1px solid #FF7743;
+        border-radius: 11px;
+        background-color: #FF7743;
+        color: #FFFFFF;
+        float: right;
+        position: relative;
+        right: 19px;
+        top: 5px;
+    }
+}
+
+#center {
+    width: 375px;
+    height: 301px;
+    background: rgba(255, 255, 255, 0.39);
+    box-shadow: -9px 3px 6px rgba(114, 114, 114, 0.16), 0px -3px 6px rgba(114, 114, 114, 0.16);
+    opacity: 1;
+    border-radius: 6px;
+    margin-top: 10px;
+    position: relative;
+
+    .avatar {
+        margin-top: 15px;
+        margin-left: 22px;
+        margin-bottom: 15px;
+
+    }
+
+    .info {
+        font-size: 17px;
+        margin-top: 10px;
+        padding-left: 5px;
+        padding-right: 39px;
+        text-align: center;
+
+        span {
+            padding-left: 10px;
+        }
+    }
+
+    .goodat {
+        #goodat_title {
+            width: 108px;
+            height: 25px;
+            font-size: 18px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            line-height: 25px;
+            color: #333333;
+            margin: 30px 13px;
+        }
+
+        #goodat_content {
+            font-weight: 400;
+            margin: 9px 15px 9px 15px;
+            font-size: smaller;
+            color: #999999;
+        }
+    }
+
+    .intro {
+        #intro_title {
+            width: 108px;
+            height: 25px;
+            font-size: 18px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            line-height: 25px;
+            color: #333333;
+            margin: 13px 13px;
+        }
+
+        #intro_content {
+            font-weight: 400;
+            font-size: smaller;
+            color: #999999;
+            margin: 9px 15px;
+        }
+    }
+
+    #name {
+        display: inline-block;
+        height: 28px;
+        font-size: 20px;
+
+        font-family: PingFang SC;
+        font-weight: bold;
+        line-height: 28px;
+        color: #333333;
+        margin-right: 4px;
+    }
+
+    #career {
+        display: inline-block;
+        width: 60px;
+        background-color: #FFC9B4;
+        color: #FF7743;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    #keshi {
+        display: inline-block;
+        width: 100px;
+        height: 17px;
+        font-size: 12px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        line-height: 17px;
+        color: #999999;
+        opacity: 1;
+        margin-top: 3px;
+
+    }
+}
+
+
+.myfooter {
+    display: inline-block;
+    width: 260px;
+    height: 40px;
+    background: #FFAE14;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+    opacity: 1;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    left: 15%;
+    bottom: 50px;
+    color: #FFFFFF;
+}
+

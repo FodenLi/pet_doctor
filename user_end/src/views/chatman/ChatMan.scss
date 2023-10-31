@@ -1,0 +1,78 @@
+.chatman{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(245, 242, 242);
+    .top {
+        width: 100%;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.39);
+        opacity: 1;
+        .van-icon {
+          color: black;
+        }
+        .van-hairline--bottom:after {
+          border-bottom-width: 0;
+        }
+        .van-ellipsis {
+          font-size: 18px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #333333;
+          opacity: 1;
+        }
+      }
+    .body{
+        width: 100%;
+        height: 100%;
+       
+        .infor{
+            width: 90%;
+            height: 80px;
+            margin: 13px auto;
+            display: flex;
+            background-color: white;
+            .sculpture{
+                width: 60px;
+                height: 60px;
+                margin: 10px;
+                img{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+            .middle{
+                width: 55%;
+                height: 60px;
+                margin-top: 10px;
+                .name{
+                    margin: 5px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #666666;
+                    opacity: 1;
+                }
+                .content{
+                    margin-left: 5px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #999999;
+                    opacity: 1;
+                }
+            }
+            .right{
+                width: 15%;
+                margin: 10px;
+                text-align: center;
+                .time{
+                    margin-top: 20px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #999999;
+                    opacity: 1;
+                    height: 17px;
+                    line-height: 17px;
+                }
+            }
+        }
+    }
+}

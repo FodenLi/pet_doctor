@@ -1,0 +1,89 @@
+.wiki_breathe {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .top {
+    width: 100%;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.39);
+    opacity: 1;
+    .van-icon {
+      color: black;
+    }
+    .van-hairline--bottom:after {
+      border-bottom-width: 0;
+    }
+    .van-ellipsis {
+      font-size: 18px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #333333;
+      opacity: 1;
+    }
+  }
+  .title {
+    width: 90%;
+    height: 28px;
+    margin-top: 9px;
+    p {
+      font-size: 20px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      line-height: 28px;
+      color: #333333;
+      opacity: 1;
+    }
+  }
+  .contents {
+    width: 90%;
+    height: 591px;
+    background: rgba(255, 255, 255, 0.39);
+    opacity: 1;
+    border-radius: 6px;
+    margin-top: 4px;
+    .time {
+      width: 100%;
+      height: 22px;
+      p {
+        font-size: 16px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        line-height: 22px;
+        color: #666666;
+        opacity: 1;
+      }
+    }
+    img {
+      margin-top: 6px;
+    }
+    .details {
+      width: 100%;
+      margin-top: 24px;
+      .theme {
+        width: 100%;
+        height: 17px;
+        p {
+          font-size: 16px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          line-height: 17px;
+          color: #333333;
+          opacity: 1;
+        }
+      }
+      .content {
+        width: 100%;
+        margin-top: 20px;
+        p {
+          font-size: 12px;
+          font-family: PingFang SC;
+          font-weight: 400;
+          line-height: 20px;
+          color: #999999;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

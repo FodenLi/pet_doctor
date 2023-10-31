@@ -1,0 +1,32 @@
+.guide{
+    width: 100%;
+    height: 667px;
+    .my-swipe{
+        margin-left: 20%;
+        // margin-top: 100px;
+        img{
+            width: 226px;
+            height: 260px;
+            margin-top: 100px;
+        }
+        div{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 29px;
+            color: #FFAE14;
+            opacity: 1;
+        }
+    }
+    .login{
+        width: 60%;
+        height: 40px;
+        background-color: rgba(255,174,20,0.7);
+        color: white;
+        line-height: 40px;
+        text-align: center;
+        opacity: 1;
+        border-radius: 25px;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+}
